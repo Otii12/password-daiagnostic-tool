@@ -45,6 +45,13 @@
   <div class="wrap">
     <h1>Password Diagnostic</h1>
     <input type="password" id="pw" placeholder="Type a password to test" autocomplete="off">
-  </div>
+  </div>  
+  <script>
+      const pwInput = document.getElementById('pw');
+
+      pwInput.addEventListener('input', function() {
+        console.log('Current password:', pwInput.value);
+      });
+    </script>
 </body>
 </html>
