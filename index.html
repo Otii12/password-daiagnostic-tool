@@ -1,9 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Password Diagnostic</title>
+  <style>
+    body {
+      background: #0D1117;
+      color: #E6E8EB;
+      font-family: -apple-system, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 48px 20px;
+      margin: 0;
+    }
+    .wrap {
+      width: 100%;
+      max-width: 560px;
+    }
+    h1 {
+      font-size: 17px;
+      border-bottom: 1px solid #262C36;
+      padding-bottom: 16px;
+      margin-bottom: 28px;
+    }
+    input {
+      width: 100%;
+      background: #12161C;
+      border: 1px solid #262C36;
+      color: #E6E8EB;
+      font-family: monospace;
+      font-size: 15px;
+      padding: 14px 16px;
+      border-radius: 4px;
+      outline: none;
+      box-sizing: border-box;
+    }
+    input:focus {
+      border-color: #8A93A1;
+    }
+  </style>
 </head>
 <body>
-  <h1>Password Diagnostic Tool</h1>
+  <div class="wrap">
+    <h1>Password Diagnostic</h1>
+    <input type="password" id="pw" placeholder="Type a password to test" autocomplete="off">
+  </div>
 </body>
 </html>
