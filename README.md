@@ -37,5 +37,5 @@ Built as a hands-on project to practice core security concepts — entropy, hash
 
 ## Author
 
-**[Your Name]** — IT professional, tech support & web development
-[LinkedIn](#) · [Portfolio](#)
+**[Otiende Stephen]** — IT professional, tech support & web development
+[LinkedIn](www.linkedin.com/in/stephen-otiende-318760233) · [Portfolio](#)
